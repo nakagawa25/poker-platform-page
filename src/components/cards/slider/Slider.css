@@ -1,0 +1,18 @@
+.sliderWrapper {
+  height: 90%; /*Enviar por props*/
+  width: 100%;
+  margin: 2.5%;
+  overflow: hidden;
+}
+
+.sliderItem {
+  width: 95%;
+  height: var(--sliderItemHeight);
+  object-fit: fill;
+  border-radius: 1rem;
+}
+
+.swiper {
+  height: 100%;
+  width: 100%;
+}

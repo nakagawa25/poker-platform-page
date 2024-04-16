@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: #181a1e;
+  color: #e6effa;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: url(./assets/cursors/default-cursor.png), auto;
+}
+
+@media (max-width: 1366px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    font-size: 12px;
+  }
+}

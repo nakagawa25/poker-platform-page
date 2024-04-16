@@ -1,0 +1,31 @@
+.arrowLeftButton,
+.arrowRightButton {
+  width: 4vh;
+  height: 4vh;
+  display: flex;
+  top: calc(50% - 12px);
+  z-index: 1;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: url(../../assets/cursors/mouse-click.png), auto;
+  border-radius: 0.5rem;
+}
+
+.arrowLeftButton {
+  background-image: url("../../assets/arrows/left-arrow.png");
+  left: 0;
+}
+
+.arrowRightButton {
+  background-image: url("../../assets/arrows/right-arrow.png");
+  right: 5%;
+}
+
+.arrowLeftButton:hover,
+.arrowRightButton:hover {
+  background-color: #e6effa;
+  opacity: 0.9;
+}

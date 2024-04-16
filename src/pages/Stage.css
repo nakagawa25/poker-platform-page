@@ -1,0 +1,81 @@
+.stageMain .cardsContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5.5vh;
+  height: 90vh;
+  justify-content: space-evenly;
+  background-image: url(../assets/backgrounds/background-stage.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* TODO: verificar cleancode */
+.stageMain .cardsContainer .outsideStyledContainer {
+  height: 10%;
+  margin-top: 1.5%;
+}
+
+.stageMain .container {
+  width: 30vw;
+}
+
+.stageMain .container:first-child {
+  width: 50vw;
+}
+
+@media (max-width: 1024px) {
+  .stageMain .container:first-child {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .stageMain .container {
+    width: 47vw;
+  }
+
+  .stageMain .container:first-child {
+    width: 60vw;
+  }
+
+  .stageMain .container:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .stageMain .cardsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../assets/backgrounds/background-stage-cellphone.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 6vh;
+    gap: 1.5rem;
+    height: 100%;
+  }
+
+  .stageMain .cardsContainer .outsideStyledContainer {
+    margin-top: 2.5%;
+  }
+
+  .stageMain .cardsContainer .sliderWrapper {
+    height: 75vh;
+  }
+
+  .stageMain .container {
+    width: 95%;
+    min-height: 80vh;
+    margin: 0.5rem;
+  }
+
+  .stageMain .container:first-child {
+    width: 95%;
+  }
+
+  .stageMain .container:last-child {
+    display: none;
+  }
+}

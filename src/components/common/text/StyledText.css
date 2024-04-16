@@ -1,0 +1,31 @@
+.outsideStyledContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.styledTextContainer {
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5%;
+  box-shadow: 0 0 1.5rem #000000;
+  border-radius: 0.5rem;
+  background-color: #202528;
+}
+
+.styledImage {
+  max-width: 2rem;
+}
+
+.styledText {
+  white-space: nowrap;
+  font-size: 1.5rem;
+}
+
+.menuText {
+  font-size: 2rem;
+}

@@ -1,0 +1,79 @@
+.stageImageYear {
+  width: 3.5vh;
+  height: 3.5vh;
+}
+
+.stageYear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.stageHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stageListContainer button {
+  height: 2rem;
+  width: 2rem;
+  overflow: auto;
+  border: none;
+  background-color: transparent;
+  color: #e6effa;
+  border-radius: 0.25rem;
+  cursor: url(../../../assets/cursors/mouse-click.png), auto;
+}
+
+.stageListContainer button:hover {
+  background-color: #e6effa;
+  color: #0d0d0d;
+}
+
+.stageListContainer a {
+  text-decoration: none;
+  color: #e6effa;
+  font-size: 1.5rem;
+}
+
+.stageList {
+  margin: 5%;
+  min-width: 50%;
+}
+
+.stageList li {
+  text-decoration: none;
+  display: flex;
+  font-size: 1.5rem;
+  gap: 10px;
+  margin: 0.5rem;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem #e6effa;
+}
+
+.stageList li:hover {
+  background: linear-gradient(150deg, #c31432, #000000) border-box;
+}
+
+.stageList a:hover {
+  cursor: url(../../../assets/cursors/mouse-click.png), auto;
+}
+
+.stageList img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

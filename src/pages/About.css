@@ -1,0 +1,126 @@
+.aboutContainer {
+  background: rgb(93, 0, 0);
+  background: linear-gradient(
+    312deg,
+    rgba(93, 0, 0, 1) 0%,
+    rgba(33, 0, 0, 1) 35%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  height: 90vh;
+  max-height: 90vh;
+  width: 100%;
+}
+
+.backgroundStyle {
+  background-image: url("../assets/backgrounds/background-about.png");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  clip-path: polygon(57% 29%, 100% 0%, 100% 100%, 0 100%, 44% 67%);
+  position: absolute;
+}
+
+.aboutPage {
+  position: absolute;
+  background-color: transparent;
+}
+
+/* Tournament area */
+
+.aboutPage .gameAbout {
+  margin-top: 2.5vh;
+  display: flex;
+  max-height: 40vh;
+}
+
+.aboutPage .gameAbout .geometricImage {
+  width: 50%;
+  height: 40vh;
+  background-color: #141414;
+  background-image: url("../assets/backgrounds/about-image.jpg");
+  background-size: cover;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+/* Place area */
+
+.aboutPage .placeAbout {
+  margin-top: 5vh;
+  display: flex;
+  max-height: 42.5vh;
+}
+
+.aboutPage .placeAbout .geometricImage {
+  width: 40%;
+  height: 40vh;
+  margin-left: 5%;
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.aboutPage .placeAbout .textArea,
+.aboutPage .gameAbout .textArea {
+  width: 40%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.25rem;
+  background: rgba(32, 37, 40, 0.9);
+  box-shadow: 0 0 2.5rem #000000;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aboutPage .title,
+.aboutPage .text {
+  padding: 1rem;
+}
+
+.aboutPage .placeAbout .textArea .text,
+.aboutPage .gameAbout .textArea .text {
+  padding-top: 0.25rem;
+}
+
+/* Responsive area */
+
+@media (max-width: 768px) {
+  .aboutPage .gameAbout {
+    padding-top: 3rem;
+  }
+
+  .aboutPage .gameAbout .geometricImage {
+    display: none;
+  }
+
+  .aboutPage .gameAbout .textArea {
+    width: 100%;
+  }
+
+  .aboutPage .placeAbout .textArea {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .aboutPage .placeAbout {
+    flex-direction: column;
+    margin-top: 0;
+    max-height: 80vh;
+  }
+
+  .aboutPage .placeAbout .textArea {
+    width: 92%;
+  }
+
+  .aboutPage .placeAbout .geometricImage {
+    width: 90%;
+    margin: 5%;
+  }
+}

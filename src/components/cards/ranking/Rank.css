@@ -1,0 +1,36 @@
+.rankContainer {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  opacity: 1;
+}
+
+.rankContainer:hover {
+  background-color: #e6effa;
+  color: #000000;
+}
+
+.rankPosition,
+.rankName,
+.rankScore {
+  border: 1px solid #580000;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rankPosition {
+  width: 15%;
+}
+
+.rankName {
+  width: 65%;
+  justify-content: left;
+  padding-left: 0.5rem;
+  overflow: hidden;
+}
+
+.rankScore {
+  width: 20%;
+}

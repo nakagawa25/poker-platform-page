@@ -1,0 +1,172 @@
+.stageModal {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+.stageInput,
+.imageInput,
+.rankingInput {
+  width: 100%;
+  min-height: 20%;
+}
+
+.stageModal .stageInput {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 15%;
+}
+
+.stageModal .stageInput .inputDiv {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stageModal .stageInput .inputDiv input,
+.stageModal .stageInput .inputDiv select {
+  width: 100%;
+  text-align: center;
+  height: 1.75rem;
+  font-size: 1.25rem;
+  border: 0;
+  border-bottom: 1px solid #000000;
+  margin: 0.5rem;
+}
+
+.stageModal .imageInput {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  border-radius: 1rem;
+  padding-bottom: 3rem;
+}
+
+.stageModal .rankingInput {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.stageModal .row {
+  border: 1px solid #181a1e;
+  display: flex;
+}
+
+.stageModal .rankingInput .row .stageRank {
+  width: 47.5%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid;
+}
+
+.stageModal .imageInput .insertImage {
+  width: 95%;
+}
+
+.stageModal .imageInput .insertButton {
+  width: 5%;
+  font-size: 1.5rem;
+  border: none;
+  border: 1px solid #181a1e;
+  background-color: transparent;
+
+  color: green;
+}
+
+.stageModal .imageInput .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 2rem;
+}
+
+.stageModal .imageInput .row .imageUrl {
+  overflow-x: hidden;
+  max-height: 3rem;
+  border-right: 1px solid #181a1e;
+  width: 95%;
+}
+
+.stageModal .buttonDiv {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stageModal .stageHeader {
+  padding-bottom: 0.5rem;
+}
+
+.stageModal .rankingHeader,
+.stageModal .imageHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 3rem;
+  background-color: #181a1e;
+  color: #e6effa;
+}
+
+.stageModal .rankingHeader .rankingHeaderItem,
+.stageModal .imageHeader .imageHeaderItem {
+  height: 100%;
+  width: 47.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stageModal .imageHeader .imageHeaderItem {
+  width: 95%;
+}
+
+.stageModal .rankingHeader h2 {
+  font-size: 1.5rem;
+}
+
+.stageModal .removeButton {
+  width: 5%;
+  min-height: 100%;
+  border: none;
+  background-color: transparent;
+  color: red;
+  font-size: 1.5rem;
+}
+
+.stageModal .rankingInput .rankInsert {
+  width: 47.5%;
+  border: none;
+  border: 1px solid #181a1e;
+  border-top: none;
+  text-align: center;
+  height: 2rem;
+  font-size: 1.25rem;
+  /* COlocar o Mouse Click */
+}
+
+.stageModal .rankingInput .insertButton {
+  border: none;
+  border-bottom: 1px solid #181a1e;
+  width: 5%;
+  background-color: transparent;
+  font-size: 1.5rem;
+  text-align: center;
+  color: green;
+}
+
+.stageModal .removeButton:hover,
+.stageModal .insertButton:hover {
+  background-color: #181a1e;
+  color: #e6effa;
+  cursor: url(../../assets/cursors/mouse-click.png), auto;
+}

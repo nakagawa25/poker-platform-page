@@ -1,0 +1,27 @@
+/* Error.css */
+.errorContainer {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.errorTitle {
+  color: #ff0000;
+}
+
+.errorMessage {
+  color: #e6effa;
+  margin-bottom: 10px;
+}
+
+.errorLink {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.errorLink:hover {
+  text-decoration: none;
+}

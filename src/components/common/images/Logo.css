@@ -1,0 +1,67 @@
+.logoContainer {
+  margin-top: 8vh;
+  background-color: #202528;
+  border-radius: 0 2rem 0 2rem;
+  box-shadow: 0 0 4rem #000000;
+  height: 125px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo {
+  height: 115px;
+  width: 115px;
+}
+
+@media (max-width: 1366px) {
+  .logoContainer {
+    height: 115px;
+    width: 115px;
+  }
+
+  .logo {
+    height: 105px;
+    width: 105px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logoContainer {
+    height: 110px;
+    width: 110px;
+  }
+
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logoContainer {
+    height: 115px;
+    width: 115px;
+    margin-top: 6.5vh;
+  }
+
+  .logo {
+    height: 105px;
+    width: 105px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logoContainer {
+    height: 110px;
+    width: 110px;
+    margin-top: 6vh;
+  }
+
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+}

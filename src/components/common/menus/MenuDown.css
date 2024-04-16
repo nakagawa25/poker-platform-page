@@ -1,0 +1,57 @@
+.menuDownContainer {
+  position: relative;
+}
+
+.menuDownHeader {
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 0.75rem;
+  cursor: url(../../../assets/cursors/mouse-click.png), auto;
+}
+
+.menuDownHeader:hover {
+  background-color: #000000;
+}
+
+.menuDownHeader button {
+  border: 0;
+  color: #e6effa;
+  font-size: 1rem;
+  background-color: transparent;
+  margin-left: 5px;
+  cursor: url(../../../assets/cursors/mouse-click.png), auto;
+}
+
+.menuDownItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  border-color: #e6effa;
+  margin-top: 5px;
+  position: absolute;
+  padding: 5px;
+  background-color: #181a1e;
+}
+
+.menuDownItem {
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menuDownItem:hover {
+  background-color: #000000;
+  cursor: url(../../../assets/cursors/mouse-click.png), auto;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

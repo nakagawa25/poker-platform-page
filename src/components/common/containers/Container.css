@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  background: rgba(32, 37, 40, 0.9);
+  box-shadow: 0 0 1.5rem #7f7f7f;
+  border-radius: 1rem;
+  margin: 1.5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.animatedContainer {
+  position: absolute;
+  top: -1.5rem;
+  left: 1rem;
+}
+
+@media (max-width: 425px) {
+  .container {
+    margin-bottom: 20px;
+  }
+}

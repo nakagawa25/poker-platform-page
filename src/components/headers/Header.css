@@ -1,0 +1,19 @@
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(#d9d9d9, #6d6d6d) 1;
+}
+
+@media (max-width: 768px) {
+  .headerButton:nth-child(3) {
+    display: none;
+  }
+
+  .headerButton:nth-child(4) {
+    display: none;
+  }
+}

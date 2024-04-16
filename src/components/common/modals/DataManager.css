@@ -1,0 +1,71 @@
+.managerContainer {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 2px solid #545454;
+  overflow: auto;
+}
+
+.managerRow {
+  display: flex;
+  width: 100%;
+}
+
+.managerColumn {
+  border: 1px solid #545454;
+  min-width: 5vw;
+  width: 100%;
+  min-height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.managerContainer .buttonContainer {
+  max-width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.managerContainer button {
+  border: none;
+  background-color: transparent;
+  color: #e6effa;
+  cursor: url(../../../assets/cursors/mouse-click.png), auto;
+}
+
+.managerContainer button:hover {
+  background-color: #000000;
+}
+
+.headerPositionFixer {
+  min-width: 10vw;
+  border: 1px solid #545454;
+  color: transparent;
+}
+
+.update,
+.delete {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80%;
+  width: 90%;
+}
+
+.update {
+  background-image: url("../../../assets/button-images/edit.png");
+}
+
+.delete {
+  background-image: url("../../../assets/button-images/delete.png");
+}
+
+.insert {
+  height: 100%;
+  width: 40%;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,36 @@
+.menuContainer {
+  box-shadow: 0 0 2rem #000000;
+  height: 3rem;
+  width: 3rem;
+  display: none;
+}
+
+.menuButton {
+  background-color: #202528;
+  border-radius: 0.5rem;
+  border: none;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../assets/button-images/menu.png);
+  background-size: cover;
+  cursor: url(../../assets/cursors/mouse-click.png), auto;
+}
+
+.menuButton:hover,
+.menuButton:focus {
+  animation: pulse 1.25s;
+  box-shadow: 0 0 0 1.5em transparent;
+  background-color: #414b50;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #e6effa;
+  }
+}
+
+@media (max-width: 768px) {
+  .menuContainer {
+    display: flex;
+  }
+}

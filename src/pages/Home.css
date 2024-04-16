@@ -1,0 +1,63 @@
+.homeMain .cardsContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5.5vh;
+  height: 90vh;
+  justify-content: space-evenly;
+  background-image: url(../assets/backgrounds/background.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* TODO: verificar cleancode */
+.homeMain .cardsContainer .outsideStyledContainer {
+  height: 10%;
+  margin-top: 1.5%;
+}
+
+.homeMain .container {
+  width: 30vw;
+}
+
+@media (max-width: 768px) {
+  .homeMain .container {
+    width: 47vw;
+  }
+
+  .homeMain .container:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .homeMain .cardsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../assets/backgrounds/background-cellphone.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 6vh;
+    gap: 1.5rem;
+    height: 100%;
+  }
+
+  .homeMain .cardsContainer .outsideStyledContainer {
+    margin-top: 2.5%;
+  }
+
+  .homeMain .cardsContainer .sliderWrapper {
+    height: 75vh;
+  }
+
+  .homeMain .container {
+    width: 95%;
+    min-height: 80vh;
+    margin: 0.5rem;
+  }
+
+  .homeMain .container:last-child {
+    display: none;
+  }
+}

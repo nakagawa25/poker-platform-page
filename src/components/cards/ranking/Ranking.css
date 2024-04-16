@@ -1,0 +1,48 @@
+.rankingContainer {
+  border-radius: 1rem;
+  margin: 2.5%;
+  height: 90%;
+  overflow: auto;
+  border: 2px solid #580000;
+  box-shadow: 0 0 2rem #000;
+  background-color: #0d0d0d;
+}
+
+.rankingContainer::-webkit-scrollbar {
+  width: 5px;
+  cursor: pointer;
+}
+
+.rankingContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.rankingContainer::-webkit-scrollbar-thumb {
+  background-color: #990f02;
+  border-radius: 20px;
+}
+
+.rankContainer p {
+  white-space: nowrap;
+}
+
+.rankingContainer .rankContainer:nth-child(1) .rankPosition {
+  color: transparent;
+  background-image: url("../../../assets/awards/gold-medal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rankingContainer .rankContainer:nth-child(2) .rankPosition {
+  color: transparent;
+  background-image: url("../../../assets/awards/silver-medal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rankingContainer .rankContainer:nth-child(3) .rankPosition {
+  color: transparent;
+  background-image: url("../../../assets/awards/bronze-medal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
