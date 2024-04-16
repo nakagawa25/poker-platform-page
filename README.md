@@ -1,10 +1,10 @@
 # Sexta Hold'em, a House Poker Platform 🃏
 
-![GitHub repo size](https://img.shields.io/github/repo-size/nakagawa25/poker-platform?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/nakagawa25/poker-platform?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/nakagawa25/poker-platform?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/nakagawa25/poker-platform?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/nakagawa25/poker-platform?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/nakagawa25/poker-platform-page?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/nakagawa25/poker-platform-page?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/nakagawa25/poker-platform-page?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/nakagawa25/poker-platform-page?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/nakagawa25/poker-platform-page?style=for-the-badge)
 
 <img src="assets/page-image.png" alt="www.sextaholdem.com.br">
 
